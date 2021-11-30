@@ -12,10 +12,10 @@ The approach for deep feed forward neural networks is to transform or “flatten
 Our Input Layer has 784 Input Nodes.
 
 We choose 2 hidden layers. 
-Output Layer: 10 nodes: 10 digits: 10 classes
+Output Layer: 10 nodes: 10 digits: 10 classes.
 We use One-hot Encoding for the Outputs to be compared to Targets.
-Activation Function = Softmax
-![image](https://user-images.githubusercontent.com/80431527/144125496-5f734daa-bd4e-43fb-874b-e5e1cf43b27c.png)
+Activation Function = Softmax.
+![image](https://user-images.githubusercontent.com/80431527/144125496-5f734daa-bd4e-43fb-874b-e5e1cf43b27c.png).
 
 
 #
@@ -32,7 +32,7 @@ Train >> Validation >> Test
 
 
 TF Datasets: TFDS:
-https://www.tensorflow.org/datasets/catalog/mnist
+https://www.tensorflow.org/datasets/catalog/mnist.
 TFDS has already split the dataset into “Training” and “Test” datasets. 
 
 
