@@ -1,0 +1,35 @@
+We don’t know the optimal width and depth for this problem. Surely, these are suboptimal values and we have to play around with them.
+
+Even after first Epoch we've had 540 different weight and bias updates.
+
+Each Epoch contains 540 batches. 540: one update for each batch. 540 updates for 540 batches
+
+
+###
+
+Loss: doesn’t change much even after first epoch
+
+Accuracy: how well outputs matched the targets
+
+Validation Loss: to see wether the model is overfitting
+
+Validation Accuracy: is the true accuracy for the model
+
+If someone asks what is the accuracy of the model? It is val_accuracy for the last Epoch: 0.9707
+
+97% is actually good!
+
+Can we reach higher? Maybe, we can fiddle with hyper-parameters.
+
+If we reach 98% of val_accuracy, does that mean the model is 98% accurate? No, not yet.
+We should test the model and feed forward. This is because we may overfit.
+
+
+By fiddling with hyperparameters on the validation dataset, we are actually overfitting the val_dataset.
+
+So, we have two types of overfitting:
+
+•	Overfitting the parameters
+•	Overfitting validation dataset (by fiddling with hyper-parameters)
+
+That’s why we use the test dataset.
